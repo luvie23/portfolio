@@ -26,12 +26,12 @@ const Hero = () => {
                 
             <span className="w-full  md:w-2/3 font-bold  bg-gradient-to-r from-[#1EBCE9] via-[#D069CA] to-[#D069CA] inline-block text-transparent bg-clip-text">Luvie Mar Rallos. </span>
             <span className="pl-5 w-full md:w-2/3 font-bold text-xl text-slate-400">Web Developer</span>
-            <span className="w-full pt-5 font-normal md:w-2/3 italic text-blue-200">I create things on the internet using modern web technologies.
+            <span className="w-full pt-5 font-normal md:w-2/3 italic text-blue-100 text-3xl">I create things on the internet using modern web technologies.
             </span>
             <div className="flex flex-col items-center justify-between gap-10 mt-10 w-full md:w-2/3 md:flex-row">
                 
                 <div className=" flex  justify-start">
-                    {(screenSize > 768) ? <BsArrowReturnRight className=" ml-32 fill-blue-300" size={70}/> : <BsArrowDown size={70} className=" fill-blue-300"/>
+                    {(screenSize > 768) ? <BsArrowReturnRight className=" ml-32 fill-blue-100" size={70}/> : <BsArrowDown size={70} className=" fill-blue-100"/>
                     
 
                     }
